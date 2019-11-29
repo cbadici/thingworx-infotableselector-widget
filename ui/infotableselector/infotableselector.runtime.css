@@ -1,0 +1,23 @@
+.widget-infotableselector .node {
+	font-size: 10px;
+	font-family: Segoe UI, Arial, Sans Serif;
+}
+
+.widget-infotableselector {
+	overflow : auto;
+}
+
+.infotableselectortooltip {   
+	position: absolute;   
+	display: inline-block;        
+	text-align: center;           
+	padding: 3px;             
+	margin: 4px;             
+	font-size: 9px;
+	font-family: Segoe UI, Arial, Sans Serif;
+	background: #ffffca;   
+	border: 0px;      
+	border-radius: 6px;           
+	pointer-events: none;         
+}
+    

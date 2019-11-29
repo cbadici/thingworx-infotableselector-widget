@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+	<ExtensionPackages>
+		<ExtensionPackage name="infotableselector_ExtensionPackage"
+			description="infotableselector Widget" vendor="ThingWorx Labs"
+			packageVersion="2.1" minimumThingWorxVersion="4.0.0" />
+	</ExtensionPackages>
+	<Widgets>
+		<Widget name="infotableselector">
+			<UIResources>
+				<!-- Studio ONLY -->
+				<FileResource type="CSS" file="infotableselector.ide.css"
+					description="" isDevelopment="true" isRuntime="false" />
+				<FileResource type="JS" file="infotableselector.ide.js"
+					description="" isDevelopment="true" isRuntime="false" />
+				<!-- Runtime/Squeal ONLY -->
+				<FileResource type="CSS" file="infotableselector.runtime.css"
+					description="" isDevelopment="false" isRuntime="true" />
+				<FileResource type="JS" file="infotableselector.runtime.js"
+					description="" isDevelopment="false" isRuntime="true" />
+			</UIResources>
+		</Widget>
+	</Widgets>
+</Entities>
