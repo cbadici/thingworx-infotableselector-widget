@@ -2,7 +2,7 @@
 [Unofficial/Not Supported] Infotable selector widget that allows a variety of client-side operations on infotables.
 It was not created by me. Anyone who might have information on who created it, please contact me to add credits here.
 
-Compared to the standard one that is widely known internally, this version has a RowCount property.
+Compared to the standard one that is widely known internally, this version has a RowCount(NUMBER), HasRows(BOOLEAN) and NoRows(BOOLEAN) properties.
 
 The infotable selector widget allows the developer to perform the following operations on infotables:
 -programatically setting the selected row number (works with multiple selected rows)
