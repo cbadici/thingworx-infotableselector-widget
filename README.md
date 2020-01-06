@@ -7,6 +7,7 @@ Compared to the standard one that is widely known internally, this version has a
 The infotable selector widget allows the developer to perform the following operations on infotables:
 -programatically setting the selected row number (works with multiple selected rows)
 -retrieving the number of rows (useful in an expression/validator)
+-understaind if the source infotable has rows or not (reduces the need of an expression, useful in driving UI behavior)
 -understanding if any row is selected (boolean, the helps understanding if there are selected rows or not)
 -understanding if no rows are selected (boolean, the helps understanding if no rows are selected).
 -clear the selected rows
