@@ -98,6 +98,16 @@
 
                 var rows = updatePropertyInfo.ActualDataRows;
                 numRows = rows.length;
+                if (numRows>0)
+                {thisWidget.setProperty('HasRows',true);
+                thisWidget.setProperty('NoRows',false);
+            }
+            else if (numRows===0)
+            {
+                thisWidget.setProperty('HasRows',false);
+                thisWidget.setProperty('NoRows',true);
+            }
+
 				thisWidget.setProperty('RowCount',numRows);
                 var selectedRowIndices = updatePropertyInfo.SelectedRowIndices;
 

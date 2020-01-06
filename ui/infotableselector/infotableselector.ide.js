@@ -25,6 +25,18 @@ TW.IDE.Widgets.infotableselector = function () {
                     'isEditable': false,
                     'baseType': 'NUMBER'
                 },
+                'HasRows': {
+                    'description': 'True when the infotable contains at least one row',
+                    'isBindingSource': true,
+                    'baseType': 'BOOLEAN',
+                    'defaultValue': false
+                },
+                'NoRows': {
+                    'description': 'True when the infotable does not contain any row. Reverse of HasRows.',
+                    'isBindingSource': true,
+                    'baseType': 'BOOLEAN',
+                    'defaultValue': false
+                },
                 'SelectRowNumber': {
                     'description': 'Row number to select or is selected in the infotable',
                     'isBindingTarget': true,
