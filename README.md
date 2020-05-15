@@ -17,4 +17,5 @@ The infotable selector widget allows the developer to perform the following oper
 
 No documentation is available or provided except what is above in this repository. 
 Feel free to fork/add issues. It is preferred to fork and then do a pull request back, since raising an issue is not guaranteed to result in a fix.
-Pull requests will be accepted if the functionality they offer is determined to be useful for the community
+
+This Extension is provided as-is and without warranty or support. It is not part of the PTC product suite. Users are free to use, fork and modify them at their own risk. Community contributions are welcomed and can be accepted based on their content.
